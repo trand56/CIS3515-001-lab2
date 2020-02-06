@@ -28,9 +28,21 @@ public class FormActivity extends AppCompatActivity {
                         passConfField.getText().length() <= 0)
                 {
                     // display error
+                    Toast.makeText(FormActivity.this, "Please fill out every field!", Toast.LENGTH_LONG).show();
                 }
                 else{
-                    Toast.makeText(FormActivity.this, passField.getText(), Toast.LENGTH_LONG).show();
+                    // Check if password fields match
+
+                    if(!passField.getText().equals(passConfField.getText()))
+                    {
+                        // passwords don't match
+    
+                    }else
+                    {
+                        // passwords match
+                        Toast.makeText(FormActivity.this, passField.getText(), Toast.LENGTH_LONG).show();
+                        
+                    }
                 }
             }
         });
