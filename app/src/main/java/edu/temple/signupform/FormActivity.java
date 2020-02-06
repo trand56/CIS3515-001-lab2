@@ -33,15 +33,14 @@ public class FormActivity extends AppCompatActivity {
                 else{
                     // Check if password fields match
 
-                    if(!passField.getText().equals(passConfField.getText()))
-                    {
-                        // passwords don't match
-    
-                    }else
+                    if(passField.getText().toString().equals(passConfField.getText().toString()))
                     {
                         // passwords match
-                        Toast.makeText(FormActivity.this, passField.getText(), Toast.LENGTH_LONG).show();
-                        
+                        Toast.makeText(FormActivity.this, "Welcome, Jane Dough, to the SignUpForm App", Toast.LENGTH_LONG).show();
+                    }else
+                    {
+                        // passwords don't match
+                        Toast.makeText(FormActivity.this, "Passwords do not match!", Toast.LENGTH_LONG).show();
                     }
                 }
             }
