@@ -6,4 +6,7 @@
     <string name="password_str">Password</string>
     <string name="passwordConf_str">Password Confirm</string>
     <string name="signUpSave_str">Save</string>
+
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="welcomeMessage">Welcome, Jane Dough, to the SignUpForm App</string>
 </resources>
