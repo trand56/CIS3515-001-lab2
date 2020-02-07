@@ -6,7 +6,7 @@ Dan Tran - Assignment 2 of Mobile Dev
 
 ## 
 
-![01](images/p01-initial.png0)
+![01](images/p01-initial.png)
 
 
 This image shows the initial activity that loads up.
