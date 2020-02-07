@@ -2,6 +2,7 @@ package edu.temple.signupform;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -36,7 +37,8 @@ public class FormActivity extends AppCompatActivity {
                     if(passField.getText().toString().equals(passConfField.getText().toString()))
                     {
                         // passwords match
-                        Toast.makeText(FormActivity.this, "Welcome, Jane Dough, to the SignUpForm App", Toast.LENGTH_LONG).show();
+                        //Toast.makeText(FormActivity.this, "Welcome, Jane Dough, to the SignUpForm App", Toast.LENGTH_LONG).show();
+                        startActivity(new Intent(FormActivity.this, WelcomeActivity.class));
                     }else
                     {
                         // passwords don't match
