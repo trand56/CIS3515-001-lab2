@@ -46,7 +46,7 @@ When the `[SAVE]` button is clicked, different things occur depending on the use
 ![02](images/p02-inputType.png)
 
 
-**This shows that there is a `@` symbole in the keyboard. This means the input type is Email. The input type for password is also correct because it shows `****`.**
+**This shows that there is a `@` symbol in the keyboard. This means the email field has the correct input type. The input type for password is also correct because it shows `****`.**
 
 
 
